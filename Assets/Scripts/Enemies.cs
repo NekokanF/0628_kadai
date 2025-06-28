@@ -45,6 +45,7 @@ public class Enemies : MonoBehaviour
 
 		// プレイヤーの視野角の Cos 値
 		var playerViewCos = Mathf.Cos(player_.viewRadian);
+		//Debug.Log(playerViewCos);
 
 		// ターゲット可能な敵の一覧を更新する
 		for (int i = 0; i < enemies_.Length; ++i)
@@ -54,6 +55,7 @@ public class Enemies : MonoBehaviour
 			
 			// 内積を取得する
 			var dot = Vector3.Dot(playerForward, playerToEnemy);
+			//Debug.Log(dot);
 
 			// 内積の結果がプレイヤーの視野角より大きい場合はターゲット出来る
 			if (playerViewCos <= dot)
