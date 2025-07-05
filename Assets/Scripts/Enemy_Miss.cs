@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
-public class Enemy : MonoBehaviour
+public class Enemy_Miss : MonoBehaviour
 {
 	/// <summary>
 	/// 視野角(角度)

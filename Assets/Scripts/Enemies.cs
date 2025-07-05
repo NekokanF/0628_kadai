@@ -14,7 +14,7 @@ public class Enemies : MonoBehaviour
     /// 敵リスト
     /// </summary>
     [SerializeField]
-    private Enemy[] enemies_ = new Enemy[EnemyNum];
+    private Enemy_Miss[] enemies_ = new Enemy_Miss[EnemyNum];
 
     /// <summary>
     /// プレイヤー
@@ -30,7 +30,7 @@ public class Enemies : MonoBehaviour
     /// <summary>
     /// ターゲット可能な敵リスト
     /// </summary>
-    private Enemy[] targets_ = new Enemy[EnemyNum];
+    private Enemy_Miss[] targets_ = new Enemy_Miss[EnemyNum];
 
     /// <summary>
     /// 更新
